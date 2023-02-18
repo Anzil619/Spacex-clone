@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Ddin;
+  src: url(font/D-DIN.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Ddin;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.logo_img {
+  height: 70px;
+  width: 250px;
+}
+.navbar_inner {
+  background-color: transparent;
+  height: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100px;
+  width: 100%;
+}
+.nav_links li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav_links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 13px;
+}
+.endside {
+  padding-right: 70px;
+}
+.firstsection {
+  width: 100%;
+  height: 657px;
+
+  float: left;
+}
+.container {
+  width: 100%;
+  height: 1000px;
+  float: left;
+}
+.background {
+  background-image: url(Launch_Page_Starlink1_vertical_18_DESKTOP_c851b30656.jpg);
+
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+.secondbackground {
+  background-image: url(Amazonas_Nexus_SLC_40_2023_02_06_DSC_8717_Website_d4798964ea.jpg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 600px;
+  width: 100%;
+}
+.down-portion {
+  margin-left: 40px;
+  margin-top: 319px;
+  vertical-align: down;
+}
+.line1 {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-bottom: 6px;
+}
+.line2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 18px;
+  max-width: 37%;
+}
+.button-first {
+  width: 130px;
+  height: 40px;
+  border: solid;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  border-color: #ffffff;
+  transition: 0.25s;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 50%,
+    transparent 50%
+  );
+  background-size: 100% 200%;
+  background-position: top;
+  transition: background-position 0.5s ease-in-out; /** I've changed the time for demo purposes **/
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.button-first:hover {
+  color: rgb(61, 61, 61);
+  background-position: bottom;
+}
+.thirdbackground {
+  background-image: url(S20_Chopstick_Stack_Desktop_0c016b49ec.webp);
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 600px;
+  width: 100%;
+}
+.fourthbackground {
+  background-image: url(Homepage_Desktop_5ebdeb0c6c.webp);
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 600px;
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 92%;
+  background-color: transparent;
+  vertical-align: middle;
+}
+.inner_footer li {
+  display: inline;
+  color: #ffffff;
+  font-size: 9px;
+  padding-right: 25px;
+  font-weight: bold;
+}
+.inner_footer li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_text {
+  display: inline;
+  color: #7a7a7a;
+  font-weight: 100;
+}
